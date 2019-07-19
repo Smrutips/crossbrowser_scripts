@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 public class mozilla_setlocation {
 	WebDriver driver;
 	By locn_btn=By.xpath("/html/body/header/div[1]/div/div[2]/label");
-	By bnglr_btn=By.xpath("/html/body/div[8]/md-dialog/div/div[2]/md-grid-list/md-grid-tile[1]/figure/md-card/md-card-content/div[2]/div/img");
+	By bnglr_btn=By.xpath("/html/body/div[8]/md-dialog/div/div[2]/md-grid-list/md-grid-tile[1]/figure/md-card/md-card-content/div[2]/div");
 	By enter_loc=By.xpath("/html/body/div[8]/md-dialog/div/div[4]/input");
 	
 	public mozilla_setlocation(WebDriver driver) {
@@ -19,7 +19,7 @@ public class mozilla_setlocation {
 		driver.findElement(locn_btn).click();
 	}
 	public void bnglr_btn() throws InterruptedException {
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		driver.findElement(bnglr_btn).click();
 	}
 	public void enter_loc() throws InterruptedException {
@@ -29,7 +29,13 @@ public class mozilla_setlocation {
 		loc.sendKeys("Rajajinagar");
 		Thread.sleep(500);
 		loc.sendKeys(Keys.DOWN);
-        loc.sendKeys(Keys.RETURN);
+		loc.sendKeys(Keys.DOWN);
+		loc.sendKeys(Keys.DOWN);
+		Thread.sleep(500);
+		loc.sendKeys(Keys.ENTER);
+		loc.sendKeys(Keys.ENTER);
+
+		
 		
 		
 	}

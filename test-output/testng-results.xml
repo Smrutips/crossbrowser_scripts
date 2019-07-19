@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22538" started-at="2019-06-29T05:08:25Z" finished-at="2019-06-29T05:08:48Z">
+  <suite name="Default suite" duration-ms="39264" started-at="2019-07-19T12:55:05Z" finished-at="2019-07-19T12:55:44Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22538" started-at="2019-06-29T05:08:25Z" finished-at="2019-06-29T05:08:48Z">
-      <class name="website.testcase.mozilla_location">
-        <test-method status="PASS" signature="verifymozilla_location()[pri:0, instance:website.testcase.mozilla_location@29774679]" name="verifymozilla_location" duration-ms="22499" started-at="2019-06-29T05:08:25Z" finished-at="2019-06-29T05:08:48Z">
+    <test name="Default test" duration-ms="39264" started-at="2019-07-19T12:55:05Z" finished-at="2019-07-19T12:55:44Z">
+      <class name="website.testcase.package_flow">
+        <test-method status="PASS" signature="verify_package()[pri:0, instance:website.testcase.package_flow@29774679]" name="verify_package" duration-ms="39230" started-at="2019-07-19T12:55:05Z" finished-at="2019-07-19T12:55:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifymozilla_location -->
-      </class> <!-- website.testcase.mozilla_location -->
+        </test-method> <!-- verify_package -->
+      </class> <!-- website.testcase.package_flow -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
