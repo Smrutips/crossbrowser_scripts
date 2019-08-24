@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="website.testcase.quick_flow">
+      <class name="website.testcase.mozilla_location">
         <methods>
-          <include name="verify_quick"/>
+          <include name="verifymozilla_location"/>
         </methods>
-      </class> <!-- website.testcase.quick_flow -->
+      </class> <!-- website.testcase.mozilla_location -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
