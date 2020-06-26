@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="38991" started-at="2019-08-24T07:03:54Z" finished-at="2019-08-24T07:04:33Z">
+  <suite name="Default suite" duration-ms="3760" started-at="2020-06-26T12:15:27 IST" finished-at="2020-06-26T12:15:31 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="38991" started-at="2019-08-24T07:03:54Z" finished-at="2019-08-24T07:04:33Z">
-      <class name="website.testcase.product_flow">
-        <test-method status="PASS" signature="verify_product()[pri:0, instance:website.testcase.product_flow@77caeb3e]" name="verify_product" duration-ms="38932" started-at="2019-08-24T07:03:54Z" finished-at="2019-08-24T07:04:33Z">
+    <test name="Default test" duration-ms="3760" started-at="2020-06-26T12:15:27 IST" finished-at="2020-06-26T12:15:31 IST">
+      <class name="website.testcase.mozilla_headless_setlocation">
+        <test-method status="PASS" signature="verifylocation()[pri:0, instance:website.testcase.mozilla_headless_setlocation@614ddd49]" name="verifylocation" duration-ms="3693" started-at="2020-06-26T12:15:27 IST" finished-at="2020-06-26T12:15:31 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_product -->
-      </class> <!-- website.testcase.product_flow -->
+        </test-method> <!-- verifylocation -->
+      </class> <!-- website.testcase.mozilla_headless_setlocation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

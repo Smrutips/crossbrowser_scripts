@@ -1,5 +1,6 @@
 package website.testcase;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.firefox.FirefoxBinary;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
@@ -21,13 +22,15 @@ public class package_flow {
 	    Thread.sleep(3000);
 	    driver.get("http://v2.20160301.testing.bro4u.com/v2/bro4u-webapp-v2/doorstep-car-mechanic-service-bangalore");
 	    package_model pack=new package_model(driver);
-	    pack.hatchback_btn();
+	    Thread.sleep(4000);
+	    System.out.println(driver.findElement(By.xpath("/html/body/ui-view/ui-view/intermediate-screen/div[1]/div[2]/div/div[2]/div[4]/div/div/div/div/button")).getCssValue("color"));
+	    /*pack.hatchback_btn();
 	    pack.viewpack_btn();
 	    pack.diesel_btn();
 	    pack.date_btn();
 	    pack.choose_pck();
 	    pack.booknw_btn();
-	    
+	    */
 	}
 
 }
