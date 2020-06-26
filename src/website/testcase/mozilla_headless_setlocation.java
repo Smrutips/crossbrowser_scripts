@@ -11,13 +11,13 @@ import website.page.mozilla_setlocation;
 @Test
 public class mozilla_headless_setlocation {
 	public void verifylocation() throws InterruptedException {
-		//FirefoxBinary firefoxBinary = new FirefoxBinary();
-	    //firefoxBinary.addCommandLineOptions("--headless");
+		FirefoxBinary firefoxBinary = new FirefoxBinary();
+	    firefoxBinary.addCommandLineOptions("--headless");
 	    System.setProperty("webdriver.gecko.driver", "geckodriver");
-	   // FirefoxOptions firefoxOptions = new FirefoxOptions();
-	    //firefoxOptions.setBinary(firefoxBinary);
-	    //FirefoxDriver driver = new FirefoxDriver(firefoxOptions);
-	    WebDriver driver=new FirefoxDriver();
+	    FirefoxOptions firefoxOptions = new FirefoxOptions();
+	    firefoxOptions.setBinary(firefoxBinary);
+	    FirefoxDriver driver = new FirefoxDriver(firefoxOptions);
+	   // WebDriver driver=new FirefoxDriver();
 	    driver.get("http://v2.20160301.testing.bro4u.com/v2/bro4u-webapp-v2/");
 	    mozilla_setlocation moz=new mozilla_setlocation(driver);
 	   // moz.locn_btn();
